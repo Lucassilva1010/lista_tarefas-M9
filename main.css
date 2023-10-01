@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    
+}
+main{
+    margin-top: 20PX;
+    background-color: darkcyan;
+}
+
+main h2{
+    color: aliceblue;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bolder;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+form{
+    text-align: center;
+}
+
+form input{
+    font-size: 20px;
+    border-radius: 2px 2px 0.6px;
+    border-color: black;
+   font-style: italic;
+   text-align: center;
+   cursor: pointer;
+
+}
+form button{
+    font-size: 20px;
+    border-radius: 2px 2px 0.6px;
+    border-color: black;
+   width: 150px; 
+   text-align: center;
+   margin-left: 5px;
+   cursor: pointer;
+}
+
+.tarefas{
+    font-size: 20px;
+    align-items: center;
+    color: aliceblue;
+    margin-top: 20px;
+    font-style: oblique;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.tarefas ol{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+    
+}
+
+.completado{
+    text-decoration: line-through;
+    color: brown;
+}
