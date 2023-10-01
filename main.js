@@ -5,16 +5,16 @@ $(document).ready(function () {
         const textoInput = $("#texto-tarefa").val();
         const novotexto = $(`<li>${textoInput}</li>`);
 
-       
 
 
-        $('ol').on('click', 'li', function () {
-            $(this).toggleClass('completado')
-        });
-
-        
         $(novotexto).appendTo('ol')
 
         $('#texto-tarefa').val('');
     })
+
+    
+    $('ol').on('click', 'li', function () {
+        $(this).toggleClass('completado')
+    });
+
 });
